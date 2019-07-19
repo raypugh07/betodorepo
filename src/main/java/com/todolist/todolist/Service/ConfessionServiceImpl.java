@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.persistence.EntityNotFoundException;
 import java.util.ArrayList;
 
-
+@Service(value = "confessionService")
 public class ConfessionServiceImpl implements ConfessionService {
 
     @Autowired
