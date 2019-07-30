@@ -44,7 +44,7 @@ public class ConfessionController {
     @PostMapping(value = "/confessions",
             consumes = {"application/json"},
             produces = {"application/json"})
-    public ResponseEntity<?> addNewConfesions(@Valid
+    public ResponseEntity<?> addNewConfessions(@Valid
                                           @RequestBody
                                                   Confession newConfession) throws URISyntaxException
     {
